@@ -1,5 +1,10 @@
 <h1 align="center">Challenge Mercado Pago 💲</h1>
 
+<p align="center">
+<img src="read-me-assets/Landing.png" width="150">
+<img src="read-me-assets/Detail.png" width="150">
+</p>
+
 ## Tecnologias utlizadas
 Para el frontend estoy utilizando React con Vite y Typescript, con Sass y CSSModules.
 Para el backend estoy utilizando Node, Express, CORS y Typescript.
