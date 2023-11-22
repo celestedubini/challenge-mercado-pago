@@ -1,8 +1,12 @@
-<h1 align="center">Challenge Mercado Pago</h1>
+<h1 align="center">Challenge Mercado Pago 💲</h1>
+
+## Tecnologias utlizadas
+Para el frontend estoy utilizando React con Vite y Typescript, con Sass y CSSModules.
+Para el backend estoy utilizando Node, Express, CORS y Typescript.
 
 ## Como correr el proyecto
 
-Para clonar e instalar este challenge necesitan [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) y [Npm](https://www.npmjs.com/) en la computador. Desde la terminal:
+Para clonar e instalar este challenge necesitan [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) y [Npm](https://www.npmjs.com/) en la computadora. Desde la terminal:
 
 ```bash
 # Clonar el repo
@@ -32,3 +36,4 @@ En caso de querer generar nuevamente el archivo `data.json`, se debe correr por 
 # Regenerar el json
 npm run start
 ```
+
