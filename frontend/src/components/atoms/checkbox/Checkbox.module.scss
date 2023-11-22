@@ -1,0 +1,11 @@
+.checkboxComponent {
+  display: flex;
+  align-items: center;
+  height: var(--itemHeight);
+
+  .checkboxLabel {
+    display: inline-flex;
+    gap: var(--mediumGap);
+    line-height: var(--lineHeightLarge);
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  // Colors
+  --colorLightBlueMP: #009ee3;
+  --colorBlue: #3483fa;
+  --colorLightBlue: rgba(65, 137, 230, 15%);
+  --colorGrey: #ededed;
+  --colorWhite: #fff;
+  --colorBlack55: rgba(0, 0, 0, 55%);
+  --colorBlack90: rgba(0, 0, 0, 90%);
+
+  // Sizes
+  --headerHeight: 60px;
+  --iconSize: 32px;
+  --smallGap: 16px;
+  --mediumGap: 24px;
+  --largeGap: 32px;
+  --buttonHeight: 48px;
+  --itemHeight: 68px;
+
+  --lineHeightSmall: 18px;
+  --lineHeightMedium: 20px;
+  --lineHeightLarge: 22px;
+  --lineHeightXtraLarge: 40px;
+
+  --borderRadius: 5px;
+
+  --boxShadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}

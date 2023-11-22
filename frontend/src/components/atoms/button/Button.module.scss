@@ -1,0 +1,21 @@
+.buttonComponent {
+  &.MPBlue,
+  &.lightblue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--smallGap);
+    height: var(--buttonHeight);
+    font-weight: 500;
+    border-radius: var(--borderRadius);
+    padding-inline: var(--mediumGap);
+  }
+  &.MPBlue {
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+  }
+  &.lightblue {
+    background: var(--colorLightBlue);
+    color: var(--colorBlue);
+  }
+}

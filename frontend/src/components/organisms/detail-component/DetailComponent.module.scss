@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px;
+  background: var(--colorWhite);
+  height: 300px;
+  box-shadow: var(--boxShadow);
+  border-radius: var(--borderRadius);
+  text-align: center;
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .amount {
+      font-size: 32px;
+    }
+  }
+}

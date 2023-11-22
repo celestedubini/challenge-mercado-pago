@@ -1,0 +1,17 @@
+.thumbnailComponent {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--colorGrey);
+  background: var(--colorWhite);
+
+  &.regular {
+    width: 40px;
+    height: 40px;
+  }
+
+  &.large {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,16 @@
+.listComponent {
+  .sumFiltersContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--smallGap);
+
+    .sum {
+      line-height: var(--lineHeightXtraLarge);
+      font-size: 25px;
+    }
+    .filtersButton {
+      width: 140px;
+    }
+  }
+}

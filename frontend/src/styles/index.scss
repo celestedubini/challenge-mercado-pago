@@ -1,0 +1,56 @@
+@import 'normalize.css';
+@import 'styleguide/_font.scss';
+@import 'abstracts/_variables.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0 0 0 / 0.1); // remove highlight color
+}
+
+html {
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Proxima Nova',
+    -apple-system,
+    Roboto,
+    Arial,
+    sans-serif;
+  background: var(--colorGrey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}

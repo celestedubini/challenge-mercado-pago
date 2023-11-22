@@ -1,0 +1,16 @@
+.filtersComponent {
+  width: 260px;
+  background: var(--colorWhite);
+  position: fixed;
+  top: calc(var(--headerHeight) + 64px);
+  right: var(--smallGap);
+  padding: var(--smallGap) var(--largeGap);
+  border-radius: var(--borderRadius);
+  box-shadow: var(--boxShadow);
+
+  .buttonsContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+}
