@@ -20,7 +20,6 @@ const csvConverter: Converter<jsonArrayObjType> = csvtojson()
 
 csvConverter.fromFile(csvFilePath)
   .then((jsonArrayObj: jsonArrayObjType) => {
-
     for (let i = 0; i < jsonArrayObj.length; i++) {
       jsonArrayObj[i].id = i + 1
     }
